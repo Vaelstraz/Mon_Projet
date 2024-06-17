@@ -1,0 +1,214 @@
+body {
+    height: 100vh;
+    background-color: #27313D;
+}
+
+/* Mise en place des liens sur le site*/
+li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-family: 'Sono', monospace;
+    color: #fff;
+}
+
+ul li a {
+    color: #fff;
+}
+
+/* Couleur du lien après visite*/
+a :visited {
+
+    color: red;
+}
+
+p {
+    font-family: 'Sono', monospace;
+    color: white;
+}
+
+#logo {
+    display: flex;
+    position: absolute;
+    margin-left: 15px;
+
+}
+
+.nav {
+    width: 100%;
+    height: 150px;
+    background-color: #016795;
+}
+
+
+#invitation {
+    display: flex;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 20px;
+
+}
+
+
+#titre {
+    display: flex;
+    margin-left: 150px;
+    color: white;
+}
+
+#slogan {
+    display: flex;
+    margin-left: 165px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+/* Gestion des box pour les textes*/
+#qui {
+    text-align: center;
+    border: 2px solid black;
+    width: 700px;
+    height: 270px;
+    margin-left: 680px;
+    margin-top: 20px;
+    color: white;
+}
+
+#personaText {
+    text-align: center;
+    border: 2px solid black;
+    width: 900px;
+    height: 120px;
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+}
+
+#swotText {
+    text-align: center;
+    border: 2px solid black;
+    width: 900px;
+    height: 120px;
+    margin-left: 500px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+#naviguer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#how {
+    margin-left: 840px;
+    color: white;
+}
+
+#titre {
+    margin-left: 840px;
+    color: white;
+}
+
+#pres {
+    margin-left: 840px;
+    color: white;
+}
+
+
+#conteneur {
+    width: 325px;
+    height: 706px;
+}
+
+
+#slide {
+    width: 325px;
+    height: 706px;
+    opacity: 0;
+}
+
+#slideActive {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    left: 820px;
+
+
+}
+
+#carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carouselItem {
+    min-width: 100%;
+    box-sizing: border-box;
+    right: 80px;
+}
+
+
+/* Mise en place du bouton précédent*/
+#previous {
+    position: relative;
+    top: 350px;
+    left: 800px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Mise en place du bouton "suivant"*/
+#next {
+    position: relative;
+    bottom: 380px;
+    left: 1150px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+/* Mise en place des logos de steam, origin et du battlenet*/
+#steam,
+#battlenet,
+#origin {
+    height: 50px;
+    width: 50px;
+
+}
+
+
+.footer {
+    width: 100%;
+    background-color: #016795;
+
+}
+
+#pdp {
+    position: relative;
+    left: 700px;
+}
+
+
+.lesLogos {
+    position: relative;
+    left: 900px;
+}
+
+/* Mise en place du persona au milieu*/
+#persona {
+    margin-left: 550px;
+}
+
+/*Mise en place du swot au milieu*/
+#swot {
+    margin-left: 550px;
+}
