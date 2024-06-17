@@ -17,6 +17,10 @@ li {
 
 ul li a {
     color: #fff;
+
+    &:hover{
+        color: #016795;
+    }
 }
 
 /* Couleur du lien après visite*/
