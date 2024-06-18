@@ -15,7 +15,6 @@
 <body>
     <header>
         <div class="nav">
-
             <img id="logo" src="imageRedproject/logo.png" alt="Logo Enclume/Marteau">
             <div id="titre">
                 <h1 class="title">Bienvenue chez Stats Stalker</h1>
@@ -26,49 +25,44 @@
         </div>
         <ul>
             <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="myGame.html">Mes Jeux</a></li>
         </ul>
-
     </header>
-    
+
+    <main>
         <article>
             <div id="appliText">
                 <p>
-                   Vous y êtes presque ! Vous voilà sur la page de création de compte.
-                   Si vous être prêt à partager des moments agréables avec des personnes qui, comme vous, souhaitent jouer paisiblement. 
-                   N'hésitez plus et inscrivez vous.
+                  Ici vous pouvez choisir les jeux qui vous plaisent et y laisser un petit commentaire.
                 </p>
             </div>
         </article>
-    </div>
 
-                <form id="inscriptionForm">
-                <div class="form-group">
-                    <label for="nom">Nom</label>
-                    <input type="text" id="nom" name="nom" placeholder="Dupont" required>
-                </div>
-                <div class="form-group">
-                    <label for="prenom">Prénom</label>
-                    <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
-                </div>
-                <div class="form-group">
-                    <label for="mail">Mail</label>
-                    <input type="email" id="mail" name="mail" placeholder="Votre mail" required>
-                </div>
-                <div class="form-group">
-                    <label for="pseudo">Pseudo :</label>
-                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
-                </div>
-                <div class="form-group">
-                    <input type="submit" value="Créer le compte" onclick="gamePage()">
-                </div>
+        <!-- Section pour l'inscription et la connexion -->
+        <section id="auth">
+            <h2>Inscription / Connexion</h2>
+            <input type="text" id="username" placeholder="Nom d'utilisateur">
+            <input type="password" id="password" placeholder="Mot de passe">
+            <button id="register">Inscription</button>
+            <button id="login">Connexion</button>
+        </section>
+
+        <!-- Section pour la sélection des jeux -->
+        <section id="game-selection" style="display: none;">
+            <h2>Choisissez vos jeux</h2>
+            <form id="games-form">
+                <div id="games-list"></div>
+                <button type="submit">Enregistrer</button>
             </form>
+        </section>
 
+        <!-- Section pour le profil utilisateur -->
+        <section id="profile" style="display: none;">
+            <h2>Profil</h2>
+            <ul id="user-games"></ul>
+        </section>
+    </main>
 
-
-</article>
-</div>
-
-    
     <div class="footer">
         <footer>
             <p id="pdp">&copy; 2024 Stats Stalker. Tous droits réservés | Conditions d'utilisation.</p>

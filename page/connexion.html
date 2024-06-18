@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sitestats.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="button.scss">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@300&display=swap" rel="stylesheet">
+    <title>Connexion/Inscription</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+
+            <img id="logo" src="imageRedproject/logo.png" alt="Logo Enclume/Marteau">
+            <div id="titre">
+                <h1 class="title">Bienvenue chez Stats Stalker</h1>
+            </div>
+            <div id="slogan">
+                <p> Le meilleur endroit pour défier vos amis !</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="accueil.html">Accueil</a></li>
+            <li><a href="myGame.html">Mes Jeux</a></li>
+        </ul>
+
+    </header>
+    
+        <article>
+            <div id="appliText">
+                <p>
+                   Vous y êtes presque ! Vous voilà sur la page de création de compte.
+                   Si vous être prêt à partager des moments agréables avec des personnes qui, comme vous, souhaitent jouer paisiblement. 
+                   N'hésitez plus et inscrzegzegezgivez vous.
+                </p>
+            </div>
+        </article>
+    </div>
+
+                <form id="inscriptionForm">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Mail</label>
+                    <input type="email" id="mail" name="mail" placeholder="Votre mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="pseudo">Pseudo</label>
+                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Créer le compte" onclick="gamePage()">
+                </div>
+            </form>
+
+
+
+</article>
+</div>
+
+    
+    <div class="footer">
+        <footer>
+            <p id="pdp">&copy; 2024 Stats Stalker. Tous droits réservés | Conditions d'utilisation.</p>
+            <div class="lesLogos">
+                <img src="imageRedproject/steam-svgrepo-com.svg" id="steam" alt="logo steam">
+                <img src="imageRedproject/battle-net-svgrepo-com.svg" id="battlenet" alt="logo battlenet">
+                <img src="imageRedproject/origin-svgrepo-com.svg" id="origin" alt="logo origin">
+            </div>
+        </footer>
+    </div>
+    <script src="sitestats.js"></script>
+</body>
+
+</html>
