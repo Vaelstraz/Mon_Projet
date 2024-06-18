@@ -49,4 +49,4 @@ function previousImage() {
 document.getElementById('previous').addEventListener('click', () => previousImage());
 document.getElementById('next').addEventListener('click', () => nextImage());
 
-/*Gestion de l'aggrandissement de l'image au click*/
+

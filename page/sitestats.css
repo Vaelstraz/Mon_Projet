@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    height: 100vh;
+    height: 100%;
     background-color: #27313D;
+    padding: 0%;
+    margin: 0%;
 }
 
 /* Mise en place des liens sur le site*/
@@ -65,8 +73,8 @@ p {
 
 #slogan {
     display: flex;
-    margin-left: 165px;
-    margin-top: 20px;
+    margin-left: 765px;
+    margin-top: 50px;
     color: white;
 }
 
@@ -82,7 +90,7 @@ p {
     color: white;
 }
 
-#personaText {
+#personaText, #appliText {
     text-align: center;
     border: 2px solid black;
     width: 900px;
@@ -193,18 +201,22 @@ p {
 .footer {
     width: 100%;
     background-color: #016795;
-
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    bottom: 0;
 }
 
 #pdp {
     position: relative;
-    left: 700px;
 }
+
 
 
 .lesLogos {
     position: relative;
-    left: 900px;
+    
 }
 
 /* Mise en place du persona au milieu*/
@@ -215,4 +227,24 @@ p {
 /*Mise en place du swot au milieu*/
 #swot {
     margin-left: 550px;
+}
+
+.account_button{
+    background-color: #153771;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 800px;
+    
+    &:hover{
+        background-color: #016795;
+        color: white ;
+    }
+}
+
+h1{
+    
 }
