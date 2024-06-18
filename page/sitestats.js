@@ -50,3 +50,5 @@ document.getElementById('previous').addEventListener('click', () => previousImag
 document.getElementById('next').addEventListener('click', () => nextImage());
 
 
+// Gestion du bouton qui renvoi vers une autre page
+

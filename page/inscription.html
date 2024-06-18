@@ -30,7 +30,7 @@
 
     </header>
     
-        <artcile>
+        <article>
             <div id="appliText">
                 <p>
                    Vous y êtes presque ! Vous voilà sur la page de création de compte.
@@ -38,8 +38,35 @@
                    N'hésitez plus et inscrivez vous.
                 </p>
             </div>
-        </artcile>
-    
+        </article>
+    </div>
+
+                <form id="inscriptionForm">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" name="nom" placeholder="Dupont" required>
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prénom</label>
+                    <input type="text" id="prenom" name="prenom" placeholder="Jean" required>
+                </div>
+                <div class="form-group">
+                    <label for="mail">Mail</label>
+                    <input type="email" id="mail" name="mail" placeholder="Votre mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="pseudo">Pseudo :</label>
+                    <input type="text" id="pseudo" name="pseudo" placeholder="Pseudo" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Créer le compte" onclick="gamePage()">
+                </div>
+            </form>
+
+
+
+</article>
+</div>
 
     
     <div class="footer">
